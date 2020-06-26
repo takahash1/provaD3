@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Questão 4</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/consumoAPI.js"></script>
+</head>
+
+<body>
+	<div id="form">
+	<form method="POST" action="envio_dados.php">
+		<input type="text" class="input_text" name="nome" id="name" placeholder="Digite um nome">
+		<input type="text" class="input_text" name="endereco" id="email" placeholder="Digite um e-mail">
+		<button onClick="enviando()" class="btn btn-danger">Inserir novo POST</button> 
+	</form>
+</div>
+
+	<div class="container fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<table class="table stripped" id="table">
+					<tr>
+						<th>Nome</th>
+						<th>E-mail</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
