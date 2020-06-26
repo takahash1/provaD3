@@ -15,7 +15,7 @@ window.onload = function(e) {
 	}).catch(error => console.error(error))
 }
 
-function submeterFormulario() {
+function enviaDados() {
 
 	fetch('https://jsonplaceholder.typicode.com/comments', {
 		method: 'POST',       

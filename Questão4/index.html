@@ -7,13 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/consumoAPI.js"></script>
 </head>
-
+<div id="background">
 <body>
 	<div id="form">
-	<form method="POST" action="envio_dados.php">
+	<form method="POST">
 		<input type="text" class="input_text" name="nome" id="name" placeholder="Digite um nome">
 		<input type="text" class="input_text" name="endereco" id="email" placeholder="Digite um e-mail">
-		<button onClick="enviando()" class="btn btn-danger">Inserir novo POST</button> 
+		<button onClick="enviaDados()" class="btn btn-danger">Inserir novo POST</button> 
 	</form>
 </div>
 
@@ -30,4 +30,5 @@
 		</div>
 	</div>
 </body>
+</div>
 </html>
